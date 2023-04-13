@@ -23,7 +23,7 @@ body .container {
 .container > main {
   background-color: #fff;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ section .unread,
 section .read {
   display: flex;
   padding: 1rem;
-  background-color: hsla(211, 68%, 98%);
+  background-color: hsl(220, 100%, 97%);
   border-radius: 10px;
   margin-bottom: 1rem;
   /* align-items: center; */
@@ -115,7 +115,7 @@ section .read {
 
 a {
   color: hsl(224, 21%, 14%);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -134,6 +134,7 @@ a:hover {
 
 .info p:nth-child(1) a:nth-child(2) {
   color: hsl(219, 12%, 42%);
+  margin-left: .2rem;
 }
 
 .red__dot {
@@ -189,12 +190,12 @@ p:nth-child(1).active::after {
 section article:nth-child(5) {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .flex {
   display: flex;
-  align-items: center;
+ 
   justify-content: space-between;
 }
 
@@ -202,6 +203,7 @@ section article:nth-child(5) {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: .2rem;
 }
 
 .read .visual__info img {
@@ -224,3 +226,6 @@ section article:nth-child(5) {
     border-radius: 10px;
   }
 }
+
+
+

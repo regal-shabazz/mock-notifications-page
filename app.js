@@ -18,25 +18,23 @@ markAllAsRead.addEventListener("click", () => {
   markAllAsRead.innerText = 'Marked all as read'
   markAllAsRead.style.color = 'hsl(1, 90%, 64%)'
 
-  setInterval(() => {
-    unreadNotification.forEach(unread => {
-      unread.classList.remove('active')
-    })
-  
-    red_dot.forEach(dot => {
-      dot.classList.remove('active')
-    })
-  
-    notification_count.innerText = '3'
-  
-    markAllAsRead.innerText = 'Mark all as read'
-    markAllAsRead.style.color = 'hsl(219, 14%, 63%)'
-  }, 4000);
-}) 
 
+})
 
+setInterval(() => {
+  unreadNotification.forEach(unread => {
+    unread.classList.remove('active')
+  })
 
+  red_dot.forEach(dot => {
+    dot.classList.remove('active')
+  })
 
+  notification_count.innerText = '3'
+
+  markAllAsRead.innerText = 'Mark all as read'
+  markAllAsRead.style.color = 'hsl(219, 14%, 63%)'
+}, 5000);
 
 
 
