@@ -110,7 +110,7 @@ section .read {
 }
 
 .info p {
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 a {
@@ -176,6 +176,7 @@ p:nth-child(1).active::after {
   border: 1px solid hsla(296, 14%, 63%, 0.2);
   border-radius: 7px;
   cursor: pointer;
+  line-height: 1.2;
 }
 
 .notification .private__message:hover {
